@@ -1,0 +1,22 @@
+  /* colors */
+  $primary-color:#B1663C;
+  $second-color: #1D6154;
+  $third-color: #e8f1f6;
+  $main-background-color: #fffef8;
+  $shadow-light: rgba(0, 0, 0, 0.1);
+  
+/* colors fin */ 
+
+
+/* font */
+$primary-font: "Work Sans";
+$second-font: "Syne";
+
+/* font FIN */
+
+/* mixins */
+@mixin shadows ($color){
+  box-shadow: 0px 2px 10px $color;
+}
+
+/* mixins fin */

@@ -1,0 +1,70 @@
+.main-page-login {
+    padding: 50px 0px;
+    margin-bottom: 280px;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h2{
+        margin-bottom: 1.5em;
+    }
+
+    &__buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__forgot-pwd{
+        color: black;
+        margin-top: 25px;
+    }
+}
+
+
+.e-mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &__label{
+        margin-bottom: 10px;
+    }
+
+    &__input{
+        border: none;
+        outline: none;
+        font-family: $primary-font;
+        font-size: 20px;
+        background: white;
+        width: 375px;
+        height: 45px;
+        @include shadows ($shadow-light);
+        margin-bottom: 35px;
+
+        &--add-photo {
+            width: 415px;
+        }
+
+        &--error-login{
+            margin-bottom: 25px;
+        }
+        
+    }
+
+}
+
+.error-login{
+    text-align: center;
+    line-height: 1.2;
+    color: red;
+
+    &--margin {
+        margin-bottom: 25px;
+    }
+}
+

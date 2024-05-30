@@ -1,0 +1,83 @@
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-filters {
+
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+
+.btn {
+
+    padding: 8px 15px;
+    background: none;
+    border: 1px solid $second-color;
+    border-radius: 30px;
+    font-family: $second-font;
+    font-size: 16px;
+    color: $second-color;
+    white-space: nowrap;
+    cursor: pointer;
+
+    &--margin-right {
+        margin-right: 10px;
+    }
+
+    &--add-photo {
+        color: darken($third-color, 50%);
+        border: none;
+        font-size: 12px;
+        background: darken($third-color, 10%);
+    }
+
+    &--margin-bottom {
+        margin-bottom: 10px;
+    }
+
+    &--modal {
+        margin-bottom: 45px;
+    }
+
+    &--no-active {
+        background: #a7a7a7 ;
+        border: none;
+        color: white;
+    }
+
+    &--active {
+        background: $second-color;
+        color: white;
+    }
+
+    &--active-darken {
+        background: darken($second-color, 10%);
+    }
+
+
+}
+
+.cta {
+    text-decoration: none;
+    
+    &--black{
+        color: black;
+    }
+    
+
+    &:hover {
+        color: $primary-color;
+    }
+
+    &--edit{
+        display: flex;
+    }
+}
+
+.trash-button {
+    cursor: pointer;
+}
